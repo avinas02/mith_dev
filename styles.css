@@ -1,0 +1,8 @@
+body{
+    background-color: #fffef2;
+}
+
+.navbar-toggler:active{
+
+    border-color: none;
+}
