@@ -1,8 +1,9 @@
 @font-face {
     font-family: "CustomFont";
-    src: url(https://avinas02.github.io/mith_dev/fonts/Title.ttf);
+    src: url("fonts/Title.ttf") format("Truetype");
+}
 
-body{
+body {
     background-color: #fffef2;
 }
 
