@@ -1,7 +1,15 @@
+@font-face {
+    font-family: "CustomFont";
+    src: url(https://avinas02.github.io/mith_dev/fonts/Title.ttf);
+
 body{
     background-color: #fffef2;
 }
 
+
+.navbar-brand{
+    font-family: 'CustomFont';
+}
 .navbar-toggler:active{
 
     border-color: none;
