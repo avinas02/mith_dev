@@ -1,7 +1,23 @@
 @font-face {
-    font-family: "CustomFont";
+    font-family: "CustomFont",serif;
     src: url("https://github.com/avinas02/mith_dev/raw/master/fonts/Title.TTF") format("Truetype");
 }
+
+@media screen and (max-width:480px){
+    .card{
+        margin:auto;
+    }
+}
+.card-body{
+    margin-bottom: 0;
+    padding-bottom:0;
+}
+.card-subtitle{
+    padding-top: 1.5rem;
+}
+
+
+
 
 body {
     background-color: #fffef2;
