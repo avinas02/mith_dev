@@ -3,10 +3,12 @@
     src: url("https://github.com/avinas02/mith_dev/raw/master/fonts/Title.TTF") format("Truetype");
 }
 
-@media screen and (max-width:480px){
-    .card{
-        margin:auto;
-    }
+
+
+.card{
+    display: inline-flex;
+    margin: 30px;
+
 }
 .card-body{
     margin-bottom: 0;
@@ -16,7 +18,10 @@
     padding-top: 1.5rem;
 }
 
-
+.category{
+    background-color: #D4CAA3;
+    margin: 5% 3%;
+}
 
 
 body {
@@ -24,9 +29,7 @@ body {
 }
 
 
-.navbar-brand{
-    font-family: 'CustomFont';
-}
+
 .navbar-toggler:active{
 
     border-color: none;
