@@ -6,16 +6,9 @@
 
 
 .card{
-    display: inline-flex;
-    margin: 30px;
-
-}
-.card-body{
-    margin-bottom: 0;
-    padding-bottom:0;
-}
-.card-subtitle{
-    padding-top: 1.5rem;
+    display: flex;
+    position: relative;
+    margin: 10px auto;
 }
 
 .category{
