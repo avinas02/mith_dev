@@ -11,6 +11,10 @@
     margin: 10px auto;
 }
 
+.card:hover{
+    opacity: 0.8;
+}
+
 .category{
     background-color: #D4CAA3;
     margin: 5% 3%;
