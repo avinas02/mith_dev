@@ -9,10 +9,12 @@
     display: flex;
     position: relative;
     margin: 10px auto;
+    width: 18rem;
+    text-align: center;
 }
 
 .card:hover{
-    opacity: 0.8;
+    width: 18.5rem;
 }
 
 .category{
