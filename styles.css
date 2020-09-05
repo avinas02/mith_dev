@@ -3,7 +3,19 @@
     src: url("https://github.com/avinas02/mith_dev/raw/master/fonts/Title.TTF") format("Truetype");
 }
 
+a{
+    font-weight: 600;
+}
 
+body {
+    background-color: #fffef2;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+h4{
+    font-weight: 600;
+}
 
 .card{
     display: flex;
@@ -18,16 +30,20 @@
 }
 
 .category{
-    background-color: #D4CAA3;
-    margin: 5% 3%;
+    
+    border-bottom: 5px solid orange;
+    padding: 1rem 2.5rem 0rem;
 }
 
 
-body {
-    background-color: #fffef2;
+.custom-toggler .navbar-toggler-icon { 
+    background-image: url( 
+"data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(122, 84, 46, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E"); 
+} 
+
+.navbar{
+    background-color: #c1dff0;
 }
-
-
 
 .navbar-toggler:active{
 
